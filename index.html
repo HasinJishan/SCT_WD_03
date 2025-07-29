@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tic-Tac-Toe | Dark Mode</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Tic-Tac-Toe 🌑</h1>
+
+    <div id="scoreboard">
+      <span class="score x">🟦 X: <span id="scoreX">0</span></span>
+      <span class="score o">🟥 O: <span id="scoreO">0</span></span>
+    </div>
+
+    <div id="status">Player X's turn</div>
+
+    <div class="board" id="board"></div>
+
+    <button id="reset">🔁 Restart Game</button>
+  </div>
+
+  <!-- Sounds -->
+  <audio id="winSound" src="https://assets.mixkit.co/sfx/preview/mixkit-game-bonus-reached-2065.mp3"></audio>
+  <audio id="drawSound" src="https://assets.mixkit.co/sfx/preview/mixkit-click-error-1110.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
